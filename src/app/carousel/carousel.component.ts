@@ -13,10 +13,10 @@ export class CarouselComponent implements OnInit {
   }
   imgCollection: Array<object> = [
     {
-      image: 'https://loremflickr.com/g/600/400/paris',
-      thumbImage: 'https://loremflickr.com/g/1200/800/paris',
+      image: './assets/img/habitacion1.jpg',
+      thumbImage: './assets/img/habitacion1.jpg',
       alt: 'Image 1',
-      title: 'Image 1'
+      title: 'Village Waikiki'
     }, {
       image: 'https://loremflickr.com/600/400/brazil,rio',
       thumbImage: 'https://loremflickr.com/1200/800/brazil,rio',

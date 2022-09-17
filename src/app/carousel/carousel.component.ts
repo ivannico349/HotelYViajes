@@ -18,14 +18,14 @@ export class CarouselComponent implements OnInit {
       alt: 'Image 1',
       title: 'Village Waikiki'
     }, {
-      image: 'https://loremflickr.com/600/400/brazil,rio',
-      thumbImage: 'https://loremflickr.com/1200/800/brazil,rio',
-      title: 'Image 2',
+      image: './assets/img/habitacion2.jpg',
+      thumbImage: './assets/img/habitacion2.jpg',
+      title: 'Ocean View',
       alt: 'Image 2'
     }, {
-      image: 'https://loremflickr.com/600/400/paris,girl/all',
-      thumbImage: 'https://loremflickr.com/1200/800/brazil,rio',
-      title: 'Image 3',
+      image: './assets/img/habitacion3.jpg',
+      thumbImage: './assets/img/habitacion3.jpg',
+      title: 'Junior Suite',
       alt: 'Image 3'
     }, {
       image: 'https://loremflickr.com/600/400/brazil,rio',

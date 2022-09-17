@@ -8,12 +8,13 @@ import { NavComponent } from './nav/nav.component';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { CarouselComponent } from './carousel/carousel.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavComponent,
-    CarouselComponent
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,

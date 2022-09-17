@@ -1,8 +1,17 @@
 <div class="show-mobile">
   <div>
-    <i>
+    <button (click)="toggleMenu()">
       <img width="50px" src="./assets/svg/list.svg" alt="logo">
-    </i>
+    </button>
+    <div class="side-menu" [class.active]="activeMenu">
+      <button (click)="toggleMenu()">close
+      </button>
+      <ul>
+        <li><a href="">Habitaciones</a></li>
+        <li><a href="">Activades</a></li>
+        <li><a href="">Eventos</a></li>
+      </ul>
+    </div>
     <a href="">
       <img width='150px' src="./assets/img/logo.png" alt="logo">
     </a>

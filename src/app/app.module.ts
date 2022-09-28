@@ -15,6 +15,7 @@ import { RegisterComponent } from './pages/register/register.component';
 import { RecoveryComponent } from './pages/recovery/recovery.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { RoomDetailsComponent } from './pages/room-details/room-details.component';
+import { HabitacionesComponent } from './pages/habitaciones/habitaciones.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { RoomDetailsComponent } from './pages/room-details/room-details.componen
     RecoveryComponent,
     ProfileComponent,
     RoomDetailsComponent,
+    HabitacionesComponent,
   ],
   imports: [
     BrowserModule,
